@@ -1,12 +1,13 @@
-import React from "react";
-import { Code, Build, Storage, LaptopMac, CheckCircle, Group, Insights, Psychology, Lightbulb } from "@mui/icons-material";
+import React from 'react';
+
+import { Code, Build, Storage, LaptopMac, CheckCircle, Group, Insights, Psychology, Lightbulb } from '@mui/icons-material';
 
 const Skills = () => {
   const techSkills = [
-    { category: "Programming Languages", icon: <Code />, items: [  "Java", "SQL", "HTML5", "CSS3", "JavaScript"] },
-    { category: "Libraries", icon: <Build />, items: [  "Formik", "Yup", "Zustand"] },
-    { category: "Frameworks & Tools", icon: <Storage />, items: [  "React.js", "Tailwind CSS", "Git"] },
-    { category: "Platforms", icon: <LaptopMac />, items: [  "VS Code", "Vite"] },
+    { category: "Programming Languages", icon: <Code />, items: ["Java", "SQL", "HTML5", "CSS3", "JavaScript"] },
+    { category: "Libraries", icon: <Build />, items: ["Formik", "Yup", "Zustand"] },
+    { category: "Frameworks & Tools", icon: <Storage />, items: ["React.js", "Tailwind CSS", "Git"] },
+    { category: "Platforms", icon: <LaptopMac />, items: ["VS Code", "Vite"] },
   ];
 
   const softSkills = [
@@ -22,21 +23,18 @@ const Skills = () => {
       <div className="container">
         <h2>Skills</h2>
         <div className="grid">
-          {/* Technical Skills */}
           <div className="card">
             <h3>Technical Skills</h3>
             {techSkills.map((skill, index) => (
               <div key={index} className="skill-item">
                 <span className="icon">{skill.icon}</span>
                 <div>
-                  <h4>{ skill.category}</h4>
+                  <h4>{skill.category}</h4>
                   <p>{skill.items.join(", ")}</p>
                 </div>
               </div>
             ))}
           </div>
-
-          {/* Soft Skills */}
           <div className="card">
             <h3>Soft Skills</h3>
             <ul>
