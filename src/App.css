@@ -538,7 +538,8 @@ li {
   border-radius: 12px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
-  width: 1000px;
+  width: 950;
+  
   text-align: center;
   cursor: pointer;
   position: relative;
@@ -911,8 +912,8 @@ li {
   }
 
   .certifications .card {
-    width: 100%;
-    max-width: 350px;
+    width: 90%;
+    max-width: 300px;
     padding: 1.5rem;
   }
 
