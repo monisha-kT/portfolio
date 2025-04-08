@@ -307,7 +307,7 @@ body {
 }
 
 .image img {
-  max-width: 300px;
+  max-width: 250px;
   padding: 5px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   z-index: 2;
@@ -317,8 +317,8 @@ body {
 .image::before {
   content: "";
   position: absolute;
-  width: 98%;
-  height: 110%;
+  width: 90%;
+  height: 100%;
   background: rgba(0, 0, 0, 0.1);
   transform: rotate(-10deg);
   z-index: 1;
