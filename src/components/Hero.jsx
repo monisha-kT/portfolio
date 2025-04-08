@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import image from "../assets/pic1 moni.jpg";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   const roles = ["React Developer", "Frontend Developer"];
@@ -30,7 +31,7 @@ const Hero = () => {
             {roles[currentRoleIndex]}
           </p>
           <div className="hero-buttons">
-            <a href="mailto:monishak2020csbs@gmail.com" className="btn btn-primary">
+            <a href="#contact" className="btn btn-primary">
               Hire Me
             </a>
             <a href="https://github.com/monisha-kT" target="_blank" className="btn btn-secondary">
